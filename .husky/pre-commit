@@ -1,13 +1,13 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# echo '🏗️👷 Updating CHANGELOG.md with latest commits'
+echo '🏗️👷 Updating CHANGELOG.md with latest commits'
 
-# git log --pretty="- %s" > CHANGELOG.md && git add . ||
-# (
-#     echo '❌ ❌  Creating or Updating Change log failed. ✅Stage all changes, and try commit again✅❌ ❌ ';
-#     false;
-# )
+git log --pretty="- %s" > CHANGELOG.md && git add . ||
+(
+    echo '❌ ❌  Creating or Updating Change log failed. ✅Stage all changes, and try commit again✅❌ ❌ ';
+    false;
+)
 
 
 echo '🏗️👷 Styling, testing and building your project before committing'

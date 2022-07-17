@@ -1,4 +1,69 @@
-html,
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: Avenir;
+  font-weight: lighter;
+  src: url("../public/assets/fonts/Circular-Std-Extra-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Circular;
+  font-weight: 200;
+  src: url("../public/assets/fonts/PlusJakartaSans-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Circular;
+  font-weight: 300;
+  src: url("../public/assets/fonts/PlusJakartaSans-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Circular;
+  font-weight: 350;
+  src: url("../public/assets/fonts/CircularStd-Book.ttf") format("opentype");
+}
+@font-face {
+  font-family: Circular;
+  font-weight: 450;
+  src: url("../public/assets/fonts/PlusJakartaSans-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Circular;
+  font-weight: normal;
+  src: url("../public/assets/fonts/DMSans-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Circular;
+  font-weight: 500;
+  src: url("../public/assets/fonts/circular-std-medium-500.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Avenir;
+  font-weight: 600;
+  src: url("../public/assets/fonts/DMSans-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Avenir;
+  font-weight: bold;
+  src: url("../public/assets/fonts/circular-std-medium-500.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Avenir;
+  font-weight: 900;
+  src: url("../public/assets/fonts/circular-std-medium-500.ttf") format("opentype");
+}
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +78,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
+} */
