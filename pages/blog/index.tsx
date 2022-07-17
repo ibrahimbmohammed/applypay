@@ -1,4 +1,3 @@
-/* eslint-disable react/self-closing-comp */
 import type { NextPage } from 'next';
 import HomeWrapper from '@lib/hoc/home-wrapper';
 import ReactPaginate from 'react-paginate';
@@ -35,10 +34,9 @@ const SingleSchool: NextPage = () => {
     <div className=" lg:pl-[109px] xs-mini:space-x-0  lg:space-x-6 lg:pr-[72px] bg-background flex xs-mini:flex-col lg:flex-row  ">
       <aside className="sticky inset-x-0 min-w-[273px] space-y-5 top-0 left-0 py-5 self-baseline overflow-y-auto max-h-screen scrollbar-hide">
         <SearchCompListing />
-        <div className=""></div>
         <FilterComp />
       </aside>
-      <main className="flex flex-col w-full ">
+      <main className="flex flex-col w-full items-center justify-start ">
         <div className="flex items-center justify-between pb-[20px]">
           <div className="">
             <p className="text-[18px]">Showing: 487 filtered schools</p>

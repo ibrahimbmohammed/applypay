@@ -79,3 +79,61 @@ a {
 * {
   box-sizing: border-box;
 } */
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+ border: gray 1px solid;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: start;
+  justify-content: start;
+  -webkit-box-align: start;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  /* border: red 1px solid; */
+}
+
+.swiper-slide {
+  width: 80%;
+  border: yellow 1px solid;
+}
+.swiper-slide:first-child {
+    width: 80%;
+  }
+  .swiper-slide:nth-child(1n) {
+    width: 90%;
+  }
+.swiper-slide:nth-child(2n) {
+  width: 90%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 100%;
+}

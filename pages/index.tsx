@@ -112,7 +112,7 @@ const Home: NextPage = () => {
           classNameText="xs-mini:text-[29px] lg:text-[42px]"
           classNameBg="xs-mini:top-6 lg:top-9 xs-mini:h-[18px] lg:h-[23px] xs-mini:w-[240px] lg:w-[139px]"
         />
-        {/* lg:min-w-[1255px] max-w-[1255px] */}
+
         <div className="border xs-mini:overflow-x-auto px-[20vw] w-full flex space-x-4 snap-x  z-30 scrollbar-hide ">
           <FeaturedCard />
           <FeaturedCard />
