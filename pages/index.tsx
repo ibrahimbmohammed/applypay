@@ -140,7 +140,7 @@ const Home: NextPage = () => {
           classNameBg="  xs-mini:h-[18px] lg:h-[23px] xs-mini:w-[195px] lg:w-[300px] lg:right-[22px] lg:top-[32px] xs-mini:top-[20px] "
         />
         <SwiperNews />
-        <div className="hidden  lg:flex space-x-[80px] w-full items-center justify-between px-[110px] ">
+        <div className="hidden lg:flex space-x-[80px] w-full items-center justify-between px-[110px] ">
           <NewsCard />
           <NewsCard />
           <NewsCard />

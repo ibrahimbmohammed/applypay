@@ -21,6 +21,25 @@ import { FaGlobe } from 'react-icons/fa';
 import Woman from '@assets/svg/inyellow.svg';
 import VerifiedIcon from '@lib/icons/single-page/verified';
 import RegisteredIcon from '@lib/icons/single-page/registered';
+import LibraryIcon from '@lib/icons/arcodian/library';
+import ScienceIcon from '@lib/icons/arcodian/science';
+import IctIcon from '@lib/icons/arcodian/ict';
+import PlayGroundIcon from '@lib/icons/arcodian/playground';
+import BusIcon from '@lib/icons/arcodian/bus';
+import MedIcon from '@lib/icons/arcodian/med';
+import FacilityIcon from '@lib/icons/single-page/facility';
+import BasketBallIcon from '@lib/icons/arcodian/basketball';
+import FootBallIcon from '@lib/icons/arcodian/football';
+import KarateIcon from '@lib/icons/arcodian/karate';
+import CyclingIcon from '@lib/icons/arcodian/cycling';
+import ChessIcon from '@lib/icons/arcodian/chess';
+import TennisIcon from '@lib/icons/arcodian/tennis';
+import SportIcon from '@lib/icons/single-page/sport';
+import InfomationIcon from '@lib/icons/single-page/info';
+import MapIcon from '@lib/icons/single-page/map';
+import DeskIcon from '@lib/icons/single-page/desk';
+import FileIcon from '@lib/icons/single-page/file';
+import CurrencyIcon from '@lib/icons/single-page/currency';
 // import required modules
 
 const Blog: NextPage = () => {
@@ -296,7 +315,7 @@ const Blog: NextPage = () => {
           <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
             <DisclosureComp>
               <div className="flex space-x-2">
-                <KeyIcon />
+                <CurrencyIcon />
                 <SectionHeaderComp
                   text="Tuition & Application Fees"
                   className="h-[2px] xs-mini:w-[55px] lg:w-[250px]"
@@ -375,7 +394,7 @@ const Blog: NextPage = () => {
           <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
             <DisclosureComp>
               <div className="flex space-x-2">
-                <KeyIcon />
+                <FileIcon />
                 <SectionHeaderComp
                   text="Admissions"
                   className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
@@ -396,10 +415,10 @@ const Blog: NextPage = () => {
           <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
             <DisclosureComp>
               <div className="flex space-x-2">
-                <KeyIcon />
+                <DeskIcon />
                 <SectionHeaderComp
                   text="Exams Preparation"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[190px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
@@ -457,7 +476,7 @@ const Blog: NextPage = () => {
           <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
             <DisclosureComp>
               <div className="flex space-x-2">
-                <KeyIcon />
+                <FacilityIcon />
                 <SectionHeaderComp
                   text="School Facilities"
                   className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
@@ -465,213 +484,101 @@ const Blog: NextPage = () => {
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
               </div>
-              <table className="table-auto w-full  ">
-                <thead>
-                  <tr>
-                    <th> </th>
-                    <th> </th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y w-full ">
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Private</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Christian</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">No</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">47</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">10</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Yes</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        National Curriculum of England & Wales
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2">School Fees Discount</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        Upfront Yearly Payment Discount Siblings Discount
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="grid grid-cols-3 justify-items-center xs-mini:gap-x-[10px] xl:gap-x-[120px] xs-mini:gap-y-[20px] lg:gap-y-[40px] ">
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <LibraryIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Library
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <ScienceIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Science Laboratory
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <IctIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    ICT Laboratory
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <PlayGroundIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Playground
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <BusIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    School Buses
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <MedIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Medical Facilities
+                  </p>
+                </div>
+              </div>
             </DisclosureComp>
           </div>
           <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
             <DisclosureComp>
               <div className="flex space-x-2">
-                <KeyIcon />
+                <SportIcon />
                 <SectionHeaderComp
                   text="Sports & Activities"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[170px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
               </div>
-              <table className="table-auto w-full  ">
-                <thead>
-                  <tr>
-                    <th> </th>
-                    <th> </th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y w-full ">
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Private</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Christian</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">No</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">47</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">10</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Yes</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        National Curriculum of England & Wales
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2">School Fees Discount</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        Upfront Yearly Payment Discount Siblings Discount
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="grid grid-cols-3 justify-items-center xs-mini:gap-x-[10px] xl:gap-x-[120px] xs-mini:gap-y-[20px] lg:gap-y-[40px] ">
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <BasketBallIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Basketball
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <FootBallIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Football
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <KarateIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Karate
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <CyclingIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Cycling
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <ChessIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Chess
+                  </p>
+                </div>
+                <div className="flex flex-col space-y-[1px] items-center">
+                  <TennisIcon />
+                  <p className="font-[200] lg:text-[13px]  xs-mini:text-[9px] text-[#51596C]">
+                    Table Tennis
+                  </p>
+                </div>
+              </div>
             </DisclosureComp>
           </div>
           <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
             <DisclosureComp>
               <div className="flex space-x-2">
-                <KeyIcon />
+                <InfomationIcon />
                 <SectionHeaderComp
                   text="About Us"
                   className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
@@ -708,7 +615,7 @@ const Blog: NextPage = () => {
           <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
             <DisclosureComp>
               <div className="flex space-x-2">
-                <KeyIcon />
+                <MapIcon />
                 <SectionHeaderComp
                   text="Map"
                   className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
