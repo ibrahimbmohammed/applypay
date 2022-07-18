@@ -15,7 +15,12 @@ import SingleInfo from '@assets/svg/singleinfo.svg';
 import BgLeftIcon from '@lib/icons/home/bg-left-icon';
 import SwiperFeatured from '@molecules/m-slider-featured';
 import FeaturedCard from '@molecules/m-card-featured';
-
+import { FiUser } from 'react-icons/fi';
+import { RiPhoneFill } from 'react-icons/ri';
+import { FaGlobe } from 'react-icons/fa';
+import Woman from '@assets/svg/inyellow.svg';
+import VerifiedIcon from '@lib/icons/single-page/verified';
+import RegisteredIcon from '@lib/icons/single-page/registered';
 // import required modules
 
 const Blog: NextPage = () => {
@@ -111,6 +116,73 @@ const Blog: NextPage = () => {
               <SwiperSingle />
               <div className="absolute z-50 xs-mini:top-[80px] lg:top-[330px] right-5">
                 <Image src={SingleInfo} />
+              </div>
+            </div>
+          </div>
+          <div className="bg-white lg:hidden flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+            <div className="ppp flex space-x-4 items-center ">
+              <div className="wwww flex flex-col items-center justify-center space-y-2 p-2 w-1/2 rounded-[6px] bg-white shadow-md">
+                <div className="">
+                  <Image src={Woman} />
+                </div>
+
+                <div className="flex flex-col space-y-3">
+                  <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
+                    <VerifiedIcon />
+                    <p className="text-[#F1B938] xs-mini:font-[450] xl:font-[350]  xs-mini:text-[9.5px] xl:text-[13px]">
+                      Verified by Applyi
+                    </p>
+                  </div>
+                  <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
+                    <RegisteredIcon />
+                    <p className="text-[#F1B938] xs-mini:font-[450] xl:font-[350] xs-mini:text-[9.5px] xl:text-[13px]">
+                      Government <br /> Registered
+                    </p>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  className="text-[10px] text-white border-[2px] bg-applyBlue border-applyBlue rounded-[6px] px-[30px] py-[6px]"
+                >
+                  Apply Online
+                </button>
+              </div>
+              <div className="ccc w-1/2 flex flex-col space-y-4">
+                <div className="flex flex-col xs-mini:space-y-4 xl:space-y-4 self-start  xl:pt-4">
+                  <p className=" ">Contact School</p>
+                  <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
+                    <FiUser className="text-applyBlue xl:text-[25px]" />
+                    <p className="text-[#51596C] xs-mini:font-[450] xl:font-[350]  xs-mini:text-[9.5px] xl:text-[15px]">
+                      Mrs. Francisca Green
+                    </p>
+                  </div>
+                  <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
+                    <RiPhoneFill className="text-applyBlue xl:text-[25px]" />
+                    <p className="text-[#51596C] xs-mini:font-[450] xl:font-[350] xs-mini:text-[9.5px] xl:text-[15px]">
+                      09015525136
+                    </p>
+                  </div>
+                  <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
+                    <RiPhoneFill className="text-applyBlue xl:text-[25px]" />
+                    <p className="text-[#51596C] xs-mini:font-[450] xl:font-[350] xs-mini:text-[9.5px] xl:text-[15px]">
+                      09015525136
+                    </p>
+                  </div>
+                  <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
+                    <FaGlobe className="text-applyBlue xl:text-[25px]" />
+                    <p className="text-[#51596C] xs-mini:font-[450] xl:font-[350] xs-mini:text-[9.5px] xl:text-[15px]">
+                      www.nordicschool.com
+                    </p>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  className="text-[10px] text-applyBlue border-[2px] border-applyBlue rounded-[6px]  px-[30px] py-[6px]"
+                >
+                  Send Message
+                </button>
               </div>
             </div>
           </div>
@@ -867,9 +939,9 @@ const Blog: NextPage = () => {
         </div>
         <SectionHeaderComp
           text="Featured Schools"
-          className="h-[6rem] xs-mini:w-[235px] lg:w-[28rem]"
+          className="h-[6rem] xs-mini:w-[235px] lg:w-[21rem]"
           classNameText="xs-mini:text-[29px] lg:text-[42px]"
-          classNameBg=" xs-mini:h-[18px] lg:right-[110px] lg:h-[23px] xs-mini:w-[240px] lg:w-[340px] lg:top-[32px] xs-mini:top-[20px] "
+          classNameBg=" xs-mini:h-[18px] lg:right-[0px] lg:h-[23px] xs-mini:w-[240px] lg:w-[340px] lg:top-[32px] xs-mini:top-[20px] "
         />
 
         <SwiperFeatured />

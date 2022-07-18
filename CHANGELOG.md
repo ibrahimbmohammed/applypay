@@ -1,3 +1,4 @@
+- add: center featured
 - add : last section
 - slider
 - mobile nav
