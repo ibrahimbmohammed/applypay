@@ -6,15 +6,10 @@ import Ribbon from '@atoms/a-ribbon';
 import { MdLocationOn } from 'react-icons/md';
 import Image from 'next/image';
 import Nordic from '@assets/svg/nordic.svg';
-import GirlHolo from '@assets/svg/girlholo.svg';
-import ManHappy from '@assets/svg/manhapp.svg';
 import FlagIcon from '@lib/icons/single-page/flag';
-import { Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
 import KeyIcon from '@lib/icons/single-page/key';
 import DisclosureComp from '@lib/hoc/disclosure';
+import SwiperSingle from '@molecules/m-slider-single';
 
 // import required modules
 
@@ -68,7 +63,7 @@ const Blog: NextPage = () => {
             Nordic International School
           </p>
         </div>
-        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-[701px] rounded-[6px]  ">
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-[721px] rounded-[6px]  ">
           <div className=" flex xs-mini:flex-col xs-mini:items-center xs-mini:justify-start lg:flex-row-reverse lg:items-start  lg:-space-x-[5px]">
             <div className="lg:w-[332px] lg:flex lg:items-end lg:justify-end ">
               <Image src={Nordic} />
@@ -105,34 +100,10 @@ const Blog: NextPage = () => {
               </p>
             </div>
           </div>
-          <Swiper
-            slidesPerView="auto"
-            spaceBetween={1}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[Pagination]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              <Image src={GirlHolo} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={ManHappy} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={GirlHolo} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={ManHappy} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={GirlHolo} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src={ManHappy} />
-            </SwiperSlide>
-          </Swiper>
+
+          <div className=" relative border">
+            <SwiperSingle />
+          </div>
         </div>
         <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
           <DisclosureComp>
