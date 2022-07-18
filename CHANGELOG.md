@@ -1,3 +1,4 @@
+- last comp
 - add: center featured
 - add : last section
 - slider

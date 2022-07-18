@@ -33,7 +33,7 @@ const Blog: NextPage = () => {
             <div className=" w-full">
               <SectionHeaderComp
                 text="Updates"
-                className="h-[6rem] xs-mini:w-[55px] lg:w-[50px]"
+                className="h-[3rem] xs-mini:w-[55px] lg:w-[50px]"
                 classNameText="xs-mini:text-[29px] lg:text-[20px]"
                 classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[22px] xs-mini:h-[18px] lg:h-[15px] w-[70px]"
               />
@@ -192,7 +192,7 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="Key Information"
-                  className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[1rem] xs-mini:w-[55px] lg:w-[150px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
@@ -299,7 +299,7 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="Tuition & Application Fees"
-                  className="h-[6rem] xs-mini:w-[55px] lg:w-[250px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[250px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
@@ -378,7 +378,7 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="Admissions"
-                  className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
@@ -399,7 +399,7 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="Exams Preparation"
-                  className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
@@ -414,85 +414,39 @@ const Blog: NextPage = () => {
                 <tbody className="divide-y w-full ">
                   <tr>
                     <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
+                      <p className="font-[350] py-2 text-[#3F3F3F]">Nursery</p>
                     </td>
                     <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Private</p>
+                      <p className="font-[200] pl-2 text-[14px]">N/A</p>
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
+                      <p className="font-[350] py-2 text-[#3F3F3F]">Primary</p>
                     </td>
                     <td>
-                      <p className="font-[200] pl-2 text-[14px]">Christian</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">No</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">47</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">10</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Yes</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        National Curriculum of England & Wales
+                      <p className="font-[200] pl-2 text-[14px] leading-[30px]">
+                        KS2 SAT Examination
+                        <br /> KS3 SAT Examination <br />
+                        National Common Examination
                       </p>
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <p className="font-[350] py-2">School Fees Discount</p>
+                      <p className="font-[350] py-2 text-[#3F3F3F]">Junior Secondary</p>
+                    </td>
+                    <td>
+                      <p className="font-[200] pl-2 text-[14px]">Junior Secondary Examination</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p className="font-[350] py-2 text-[#3F3F3F]">Senior Secondary</p>
                     </td>
                     <td>
                       <p className="font-[200] pl-2 text-[14px]">
-                        Upfront Yearly Payment Discount Siblings Discount
+                        National Examination Council (NECO)
                       </p>
                     </td>
                   </tr>
@@ -506,7 +460,7 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="School Facilities"
-                  className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
@@ -613,7 +567,7 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="Sports & Activities"
-                  className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
@@ -720,105 +674,35 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="About Us"
-                  className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
               </div>
-              <table className="table-auto w-full  ">
-                <thead>
-                  <tr>
-                    <th> </th>
-                    <th> </th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y w-full ">
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Private</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Christian</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">No</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">47</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">10</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Yes</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        National Curriculum of England & Wales
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2">School Fees Discount</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        Upfront Yearly Payment Discount Siblings Discount
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="">
+                <p className="font-[200] text-[#51596C]">
+                  Claret Schools was established to provide Private Nursery and Primary School
+                  Education. The School is located at Plot 700, Gitto Road, Mabushi, Abuja, FCT,
+                  Nigeria.
+                  <br />
+                  <br />
+                  The School operates a robust Early YearsFoundation Stage (EYFS) in the Nursery
+                  Section. The Primary Section operates a rich blend of the Nigerian and the
+                  International Primary Curricula with the use of the Edexcel International Primary
+                  Curriculum in Numeracy (Mathematics), Science and Literacy (English).
+                  <br />
+                  <br />
+                  Learning with the International Primary Curriculum means that the children focus
+                  on a combination of academic, personal and international learning that is exciting
+                  and challenging. The aim of the IPC is to help every child enjoy the learning of a
+                  wide range of subjects and to develop an inquiring mind and personal attributes
+                  that will help them throughout teenage and adult years, and to develop a sense of
+                  their own nationality and culture at the same time, developing a profound respect
+                  for the nationalities and cultures of others. Through the IPC approach to
+                  learning, children develop the knowledge, skills and understanding necessary to
+                  confidently face the world of tomorrow.
+                </p>
+              </div>
             </DisclosureComp>
           </div>
           <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
@@ -827,105 +711,35 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="Map"
-                  className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
                   classNameText="xs-mini:text-[29px] lg:text-[20px]"
                   classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
                 />
               </div>
-              <table className="table-auto w-full  ">
-                <thead>
-                  <tr>
-                    <th> </th>
-                    <th> </th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y w-full ">
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Private</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Christian</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">No</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">47</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">10</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">2015</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">Yes</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        National Curriculum of England & Wales
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p className="font-[350] py-2">School Fees Discount</p>
-                    </td>
-                    <td>
-                      <p className="font-[200] pl-2 text-[14px]">
-                        Upfront Yearly Payment Discount Siblings Discount
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="google-map-code">
+                <div className="hidden lg:flex">
+                  <iframe
+                    title="mymap"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3325395304414!2d-122.01116148467422!3d37.33463524513264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb59127ce078f%3A0x18e1c3ce7becf1b!2sApple%20Park!5e0!3m2!1sen!2sin!4v1637309850935!5m2!1sen!2sin"
+                    width="700"
+                    height="450"
+                    style={{ border: '0' }}
+                    allowFullScreen
+                    loading="lazy"
+                  />
+                </div>
+                <div className="flex lg:hidden">
+                  <iframe
+                    title="mymap"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3325395304414!2d-122.01116148467422!3d37.33463524513264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb59127ce078f%3A0x18e1c3ce7becf1b!2sApple%20Park!5e0!3m2!1sen!2sin!4v1637309850935!5m2!1sen!2sin"
+                    width="270"
+                    height="450"
+                    style={{ border: '0' }}
+                    allowFullScreen
+                    loading="lazy"
+                  />
+                </div>
+              </div>
             </DisclosureComp>
           </div>
         </main>
