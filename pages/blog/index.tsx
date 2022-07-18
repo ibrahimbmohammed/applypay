@@ -6,6 +6,7 @@ import SearchCompListing from '@molecules/m-search-comp-listing';
 import FilterComp from '@molecules/m-filter-comp';
 import { IoGridOutline } from 'react-icons/io5';
 import { BsListCheck } from 'react-icons/bs';
+import { FiFilter } from 'react-icons/fi';
 import { useEffect, useState } from 'react';
 import schoolList from '@lib/constants/dummy-data/school-list';
 import LeftPagCell from '@molecules/m-cell-left-pag';
@@ -32,14 +33,18 @@ const SingleSchool: NextPage = () => {
 
   return (
     <div className=" lg:pl-[109px] xs-mini:space-x-0  lg:space-x-6 lg:pr-[72px] bg-background flex xs-mini:flex-col lg:flex-row  ">
-      <aside className="sticky inset-x-0 min-w-[273px] space-y-5 top-0 left-0 py-5 self-baseline overflow-y-auto max-h-screen scrollbar-hide">
+      <aside className="lg:sticky  xs-mini:w-full lg:w-fit xs-mini:flex xs-mini:flex-col xs-mini:items-center xs-mini:justify-start lg:b inset-x-0 min-w-[273px] space-y-5 top-0 left-0 py-5 self-baseline overflow-y-auto max-h-screen scrollbar-hide">
         <SearchCompListing />
+        <FilterComp />
+        <FilterComp />
+        <FilterComp />
+        <FilterComp />
         <FilterComp />
       </aside>
       <main className="flex flex-col w-full items-center justify-start ">
-        <div className="flex items-center justify-between pb-[20px]">
+        <div className="hidden w-[calc(100vw_-_35rem)]  lg:flex items-center justify-between pb-[20px]">
           <div className="">
-            <p className="text-[18px]">Showing: 487 filtered schools</p>
+            <p className="text-[18px] ">Showing: 487 filtered schools</p>
           </div>
           <div className="flex space-x-4">
             <div className="w-[52px] h-[51px] bg-applyBlue rounded-[5px] flex items-center justify-center">
@@ -49,6 +54,13 @@ const SingleSchool: NextPage = () => {
               <BsListCheck className="text-applyBlue text-[24px]" />
             </div>
           </div>
+        </div>
+        <div className="flex flex-col space-y-4   w-[280px] pb-4 lg:hidden">
+          <div className="cursor-pointer flex space-x-2 items-center justify-center bg-white shadow-md rounded-[5px] w-[127px] h-[51px]">
+            <FiFilter className="text-applyBlue text-[22px] " />
+            <p className="text-applyBlue">Filter</p>
+          </div>
+          <p className="text-[14px]">Showing: 487 filtered schools</p>
         </div>
         <div className="grid xs-mini:grid-cols-1 lg:grid-cols-3 xs-mini:gap-x-0 xs-mini:gap-y-2 lg:gap-x-[18px] lg:gap-y-[19px] pb-[150px]">
           {currentItems?.map((data1) => (

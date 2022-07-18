@@ -13,6 +13,8 @@ import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import KeyIcon from '@lib/icons/single-page/key';
+import DisclosureComp from '@lib/hoc/disclosure';
 
 // import required modules
 
@@ -60,7 +62,7 @@ const Blog: NextPage = () => {
           />
         </div>
       </aside>
-      <main className="flex flex-col w-full items-center justify-start ">
+      <main className="flex flex-col w-full items-center justify-start space-y-5 ">
         <div className="">
           <p className="xs-mini:text-[20px] lg:text-[34px] xs-mini:font-[400] lg:font-[700]">
             Nordic International School
@@ -131,6 +133,748 @@ const Blog: NextPage = () => {
               <Image src={ManHappy} />
             </SwiperSlide>
           </Swiper>
+        </div>
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+          <DisclosureComp>
+            <div className="flex space-x-2">
+              <KeyIcon />
+              <SectionHeaderComp
+                text="Key Information"
+                className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                classNameText="xs-mini:text-[29px] lg:text-[20px]"
+                classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+              />
+            </div>
+            <table className="table-auto w-full  ">
+              <thead>
+                <tr>
+                  <th> </th>
+                  <th> </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y w-full ">
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Private</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Christian</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">No</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">47</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">10</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Yes</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      National Curriculum of England & Wales
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2">School Fees Discount</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      Upfront Yearly Payment Discount Siblings Discount
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </DisclosureComp>
+        </div>
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+          <DisclosureComp>
+            <div className="flex space-x-2">
+              <KeyIcon />
+              <SectionHeaderComp
+                text="Tuition & Application Fees"
+                className="h-[6rem] xs-mini:w-[55px] lg:w-[250px]"
+                classNameText="xs-mini:text-[29px] lg:text-[20px]"
+                classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+              />
+            </div>
+            <table className="table-auto w-full  ">
+              <thead>
+                <tr>
+                  <th> </th>
+                  <th className="text-start font-[350] py-2 text-[#3F3F3F]">Tuition</th>
+                  <th className="text-start  font-[350] py-2 text-[#3F3F3F]">Application Fees</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y w-full ">
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Pre-Nursery </p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Below N74,999 </p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N10,000</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Nursery </p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N75,000 – N149,999 </p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N15,000</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Primary </p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N75,000 – N149,999 </p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N15,000</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Junior Secondary </p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N75,000 – N149,999 </p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N15,000</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Senior Secondary</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N75,000 – N149,999</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">N15,000</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </DisclosureComp>
+        </div>
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+          <DisclosureComp>
+            <div className="flex space-x-2">
+              <KeyIcon />
+              <SectionHeaderComp
+                text="Admissions"
+                className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                classNameText="xs-mini:text-[29px] lg:text-[20px]"
+                classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+              />
+            </div>
+            <div className="flex flex-col ">
+              <p className="">Contact us at</p>
+              <p className="font-[100]">
+                17, Ramotu Oluwakemi Street 8b, Sesan Osinoye Street Medina Estate, Gbagada – Lagos
+                Phone: +234-01-4531398, +2348130811763, +2348023139337 Email:
+                info@happydayspreschoolng.com
+              </p>
+            </div>
+          </DisclosureComp>
+        </div>
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+          <DisclosureComp>
+            <div className="flex space-x-2">
+              <KeyIcon />
+              <SectionHeaderComp
+                text="Exams Preparation"
+                className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                classNameText="xs-mini:text-[29px] lg:text-[20px]"
+                classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+              />
+            </div>
+            <table className="table-auto w-full  ">
+              <thead>
+                <tr>
+                  <th> </th>
+                  <th> </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y w-full ">
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Private</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Christian</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">No</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">47</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">10</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Yes</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      National Curriculum of England & Wales
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2">School Fees Discount</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      Upfront Yearly Payment Discount Siblings Discount
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </DisclosureComp>
+        </div>
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+          <DisclosureComp>
+            <div className="flex space-x-2">
+              <KeyIcon />
+              <SectionHeaderComp
+                text="School Facilities"
+                className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                classNameText="xs-mini:text-[29px] lg:text-[20px]"
+                classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+              />
+            </div>
+            <table className="table-auto w-full  ">
+              <thead>
+                <tr>
+                  <th> </th>
+                  <th> </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y w-full ">
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Private</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Christian</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">No</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">47</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">10</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Yes</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      National Curriculum of England & Wales
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2">School Fees Discount</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      Upfront Yearly Payment Discount Siblings Discount
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </DisclosureComp>
+        </div>
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+          <DisclosureComp>
+            <div className="flex space-x-2">
+              <KeyIcon />
+              <SectionHeaderComp
+                text="Sports & Activities"
+                className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                classNameText="xs-mini:text-[29px] lg:text-[20px]"
+                classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+              />
+            </div>
+            <table className="table-auto w-full  ">
+              <thead>
+                <tr>
+                  <th> </th>
+                  <th> </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y w-full ">
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Private</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Christian</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">No</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">47</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">10</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Yes</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      National Curriculum of England & Wales
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2">School Fees Discount</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      Upfront Yearly Payment Discount Siblings Discount
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </DisclosureComp>
+        </div>
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+          <DisclosureComp>
+            <div className="flex space-x-2">
+              <KeyIcon />
+              <SectionHeaderComp
+                text="About Us"
+                className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                classNameText="xs-mini:text-[29px] lg:text-[20px]"
+                classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+              />
+            </div>
+            <table className="table-auto w-full  ">
+              <thead>
+                <tr>
+                  <th> </th>
+                  <th> </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y w-full ">
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Private</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Christian</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">No</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">47</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">10</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Yes</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      National Curriculum of England & Wales
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2">School Fees Discount</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      Upfront Yearly Payment Discount Siblings Discount
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </DisclosureComp>
+        </div>
+        <div className="bg-white flex flex-col space-y-4 xs-mini:w-[340px] xs-mini:px-[18px] xs-mini:py-[24px] lg:px-[40px] lg:py-[24px] lg:w-[831px] h-fit rounded-[6px]  ">
+          <DisclosureComp>
+            <div className="flex space-x-2">
+              <KeyIcon />
+              <SectionHeaderComp
+                text="Map"
+                className="h-[6rem] xs-mini:w-[55px] lg:w-[150px]"
+                classNameText="xs-mini:text-[29px] lg:text-[20px]"
+                classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+              />
+            </div>
+            <table className="table-auto w-full  ">
+              <thead>
+                <tr>
+                  <th> </th>
+                  <th> </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y w-full ">
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Founded</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Ownership</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Private</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Faith Affiliation</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Christian</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Scholarship</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">No</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Student Population</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">47</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">10</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Non-Teaching Staff</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">2015</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Special Need</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">Yes</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2 text-[#3F3F3F]">Curriculum</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      National Curriculum of England & Wales
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="font-[350] py-2">School Fees Discount</p>
+                  </td>
+                  <td>
+                    <p className="font-[200] pl-2 text-[14px]">
+                      Upfront Yearly Payment Discount Siblings Discount
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </DisclosureComp>
         </div>
       </main>
     </div>

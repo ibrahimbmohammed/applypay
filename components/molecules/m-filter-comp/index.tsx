@@ -2,7 +2,7 @@ import Checkbox from 'labeled-checkbox-material-ui';
 
 const FilterComp = () => {
   return (
-    <div className="hidden lg:block bg-white py-[20px] space-y-4 px-[26px] rounded-[6xp] ">
+    <div className="hidden lg:block bg-white py-[20px] space-y-4 px-[26px] rounded-[8xp] xs:w-[331px]  lg:w-[273px] lg:h-fit ">
       <p className="">School Type</p>
       <div className="flex flex-col space-y-[8px]">
         <div className="flex space-x-1 items-center ">

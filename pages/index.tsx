@@ -13,42 +13,46 @@ import NewsCard from '@molecules/m-card-news';
 import SectionHeaderComp from '@molecules/m-header-section';
 import FeaturedCard from '@molecules/m-card-featured';
 import InfoCard from '@molecules/m-card-info';
+import InfoCardYellow from '@molecules/m-card-info-yellow';
 import JoinUsTextList from '@molecules/m-text-list-join-us';
 import SearchComp from '@molecules/m-search-comp';
 import SocailLists from '@molecules/m-item-list-socails';
+import JoinUsTextListSchool from '@molecules/m-text-list-join-us-school ';
+import SwiperFeatured from '@molecules/m-slider-featured';
+import SwiperNews from '@molecules/m-slider-news';
 
 const Home: NextPage = () => {
   return (
     <div className="overflow-hidde">
-      <section className="xs-mini:overflow-hidden lg:overflow-visible h-[calc(100vh_-_5rem)] bg-background flex flex-col space-y-5 items-center justify-center">
-        <div className="flex flex-col items-center space-y-3  lg:space-x-8 ">
-          <div className="relative xs-mini:mt-[300px] xs:mt-[159px]   h-[10rem] w-[16rem]  lg:hidden ">
+      <section className="xs-mini:overflow-hidden lg:overflow-visible 3xl:h-[calc(100vh_-_25rem)] xs-mini:h-[calc(100vh_-_5rem)] bg-background flex flex-col space-y-5 items-center justify-center">
+        <div className="flex  lg:h-screen    flex-col xs-mini:items-center lg:justify-start space-y-3 lg:space-y-[24px] lg:w-full lg:space-x-8 ">
+          <div className="relative xs-mini:mt-[300px] xs-mini:pt-[80px] xs:mt-[159px]   h-[10rem] w-[16rem]  lg:hidden ">
             <h2 className="absolute text-center font-[500] text-[42px] z-50 ">
               Find the Right School
             </h2>
 
             <div
-              className="absolute right-0 top-[6.2rem] h-[23px] w-[139px] bg-applyYellow rounded-[4px] z-10"
+              className="absolute right-0 top-[175px] h-[23px] w-[139px] bg-applyYellow rounded-[4px] z-10"
               style={{ opacity: '0.5' }}
             />
           </div>
-          <p className="lg:hidden xs-mini:max-w-[270px] xs:max-w-[343px]  xs-mini:max-h-[110px] xs:max-h-[100px]   xs-mini:self-center border font-[450] xs-mini:pt-[50px] xs-mini:px-[5px] xs-mini:text-[15px] xs:text-[20px]  tracking-[0.02rem] leading-[30px]   text-xl ">
+          <p className="lg:hidden xs-mini:max-w-[270px] xs:max-w-[343px]  xs-mini:max-h-[110px] xs:max-h-[100px]   xs-mini:self-center  font-[450] xs-mini:pt-[50px] xs-mini:px-[5px] xs-mini:text-[15px] xs:text-[20px]  tracking-[0.02rem] leading-[30px]   text-xl ">
             We’ve helped several parents find the right schools for their children.
           </p>
-          <div className="border xs-mini:flex-col flex lg:flex-row w-full h-full">
+          <div className=" xs-mini:flex-col flex lg:flex-row lg:w-full lg:justify-between lg:px-[110px]">
             <SearchComp />
-            <div className="border">
+            <div className="">
               <Image src={HeroImg} width="630" height="530" />
             </div>
           </div>
 
-          <p className="xs-mini:hidden  lg:block font-[450] text-xl lg:order-3">
+          <p className="xs-mini:hidden  lg:block font-[450] text-xl ">
             We’ve helped several parents find the right schools for their children.
           </p>
           <SocailLists />
         </div>
       </section>
-      <section className="h-fit xs-mini:pt-[38px] xs-mini:pb-[74px]   lg:py-[73px]  w-full bg-white flex flex-col space-y-5 items-center ">
+      <section className=" h-fit   xs-mini:pt-[38px] xs-mini:pb-[74px]   lg:py-[53px]  w-full bg-white flex flex-col space-y-5 items-center ">
         <div className="flex items-center   lg:px-[124px] ">
           <div className=" flex xs-mini:space-y-4  lg:space-y-0   xs-mini:flex-col lg:flex-row lg:space-x-[118px] items-center">
             <span className="">
@@ -71,29 +75,29 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
-      <section className="h-[calc(100vh_-_5rem)] bg-white flex flex-col space-y-5 items-center justify-center">
+      <section className="3xl:h-[calc(100vh_-_25rem)] h-[calc(100vh_-_5rem)]  bg-white flex flex-col space-y-5 items-center justify-center">
         <SectionHeaderComp
           text="Why you should join us"
-          className="h-[6rem] xs-mini:w-[310px] lg:w-[28rem]"
+          className="h-[6rem] xs-mini:w-[310px]  lg:w-[28rem]  -mt-[45px]  "
           classNameText="xs-mini:text-[29px] lg:text-[42px]"
-          classNameBg="xs-mini:top-6 lg:top-9 xs-mini:h-[18px] lg:h-[23px] xs-mini:w-[92px] lg:w-[139px]"
+          classNameBg=" xs-mini:h-[18px] lg:h-[28px] xs-mini:w-[92px] lg:w-[139px] lg:top-[35px] xs-mini:top-[20px] "
         />
-        <div className="xs:min-w-[343px] xs:max-w-[343px] border lg:min-w-[1255px] lg:max-w-[1255px] ">
-          <div className=" flex xs-mini:flex flex-col xl:flex-row items-center justify-center xl:space-x-3  w-full">
-            <div className="half flex items-center justify-center  xs-mini:space-x-4 xl:space-x-8">
+        <div className="xs:min-w-[343px] xs:max-w-[343px] lg:space-x-5  xl:min-w-[1255px] lg:max-w-[1255px]  ">
+          <div className=" flex xs-mini:flex xs-mini:space-y-[40px] lg:space-y-[30px] flex-col lg:flex-row items-center lg:justify-between lg:space-x-3  w-full">
+            <div className="half flex items-center justify-center  xs-mini:space-x-4 lg:space-x-8">
               <InfoCard />
               <JoinUsTextList />
             </div>
-            <div className="half flex flex-row-reverse items-center justify-center  xs-mini:space-x-4 xl:space-x-8">
-              <InfoCard />
-              <JoinUsTextList />
+            <div className="half flex xs-mini:flex-row-reverse lg:flex-row items-center justify-center  xs-mini:space-x-4 lg:space-x-8">
+              <InfoCardYellow />
+              <JoinUsTextListSchool />
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="lg:pt-10">
           <button
             type="button"
-            className="text-[25px] text-applyBlue border-[2px] border-applyBlue rounded-xl px-10 py-3"
+            className=" xs-mini:font-[400] lg:font-[350] xs-mini:text-[14px] lg:text-[20px] text-applyBlue border-[2px] border-applyBlue xs-mini:rounded-full lg:rounded-[17px] lg:px-[55px] lg:py-[9px] xs-mini:px-[35px] xs-mini:py-[5px]"
           >
             Register
           </button>
@@ -110,10 +114,11 @@ const Home: NextPage = () => {
           text="Featured Schools"
           className="h-[6rem] xs-mini:w-[235px] lg:w-[28rem]"
           classNameText="xs-mini:text-[29px] lg:text-[42px]"
-          classNameBg="xs-mini:top-6 lg:top-9 xs-mini:h-[18px] lg:h-[23px] xs-mini:w-[240px] lg:w-[139px]"
+          classNameBg=" xs-mini:h-[18px] lg:right-[110px] lg:h-[23px] xs-mini:w-[240px] lg:w-[340px] lg:top-[32px] xs-mini:top-[20px] "
         />
 
-        <div className="border xs-mini:overflow-x-auto px-[20vw] w-full flex space-x-4 snap-x  z-30 scrollbar-hide ">
+        <SwiperFeatured />
+        <div className="hidden xl:flex xs-mini:overflow-x-auto px-[90px] w-full  space-x-4 snap-x  z-30 scrollbar-hide ">
           <FeaturedCard />
           <FeaturedCard />
           <FeaturedCard />
@@ -125,25 +130,26 @@ const Home: NextPage = () => {
         </div>
       </section>
       <section className="relative overflow-hidden h-[calc(100vh_-_5rem)] w-full bg-white   flex flex-col space-y-5 items-center ">
-        <div className="absolute  xs-mini:-right-[200px] xl:right-0 xs-mini:top-[0px] xl:top-0">
+        <div className="absolute  xs-mini:-right-[200px] xl:-right-[70px] xs-mini:top-[0px] xl:top-0">
           <BgLatestSection />
         </div>
         <SectionHeaderComp
           text="Latest News & Guides"
           className="xs-mini:w-[280px] lg:w-[28rem]"
           classNameText="xs-mini:text-[28px] lg:text-[42px]"
-          classNameBg="xs-mini:top-5 lg:top-9 xs-mini:h-[18px] lg:h-[23px] xs-mini:w-[195px] lg:w-[139px]"
+          classNameBg="  xs-mini:h-[18px] lg:h-[23px] xs-mini:w-[195px] lg:w-[300px] lg:right-[22px] lg:top-[32px] xs-mini:top-[20px] "
         />
-        <div className="border xs-mini:overflow-x-auto px-[20vw] w-full flex space-x-4 snap-x  z-30 scrollbar-hide ">
+        <SwiperNews />
+        <div className="hidden  lg:flex space-x-[80px] w-full items-center justify-between px-[110px] ">
           <NewsCard />
           <NewsCard />
           <NewsCard />
         </div>
 
-        <div className="">
+        <div className="xs-mini:pb-3 lg:pt-10">
           <button
             type="button"
-            className="text-[25px] text-applyBlue border-[2px] border-applyBlue rounded-xl px-10 py-3"
+            className=" xs-mini:font-[400] lg:font-[350] xs-mini:text-[14px] lg:text-[20px] text-applyBlue border-[2px] border-applyBlue xs-mini:rounded-full lg:rounded-[17px] lg:px-[55px] lg:py-[9px] xs-mini:px-[35px] xs-mini:py-[5px]"
           >
             View More
           </button>

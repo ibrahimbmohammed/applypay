@@ -11,20 +11,14 @@ type ActiveLinkProps = LinkProps & {
   className?: string;
 };
 
-const ActiveLink = ({
-  children,
-  activeClassName = '',
-  className = '',
-  ...rest
-}: ActiveLinkProps) => {
+const ActiveLink = ({ children, activeClassName = '', ...rest }: ActiveLinkProps) => {
   const { asPath } = useRouter();
   const childClassName = children.props.className ?? '';
-  const newClassName = `${childClassName} ${activeClassName ?? ''}`;
+  const newClassName = `${activeClassName ?? ''}`;
   const derivedActiveClassName = asPath === rest.href ? newClassName : childClassName;
+
   return (
-    <Link {...rest}>
-      {cloneElement(children, { className: `${derivedActiveClassName} ${className} ` })}
-    </Link>
+    <Link {...rest}>{cloneElement(children, { className: `${derivedActiveClassName}  ` })}</Link>
   );
 };
 

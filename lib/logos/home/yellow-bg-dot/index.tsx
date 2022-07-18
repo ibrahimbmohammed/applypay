@@ -1,8 +1,12 @@
-function FacebookIcon() {
+interface YellowBgIconProp {
+  width: string;
+  height: string;
+}
+function YellowBgIcon({ width, height }: YellowBgIconProp) {
   return (
     <svg
-      width="128"
-      height="128"
+      width={width}
+      height={height}
       viewBox="0 0 128 128"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +21,4 @@ function FacebookIcon() {
   );
 }
 
-export default FacebookIcon;
+export default YellowBgIcon;

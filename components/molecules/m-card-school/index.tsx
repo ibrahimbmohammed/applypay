@@ -19,7 +19,7 @@ interface SchoolCardProps {
 
 const SchoolCard = ({ data }: SchoolCardProps) => {
   return (
-    <div className="snap-center bg-white  max-w-[280px] h-[412px] rounded-[6px] overflow-hidden flex flex-col space-y-1 items-center">
+    <div className="snap-center bg-white  w-[280px] h-[412px] rounded-[6px] overflow-hidden flex flex-col space-y-1 items-center">
       <div className="max-h-[244px]">
         <Image src={data.image} />
       </div>
