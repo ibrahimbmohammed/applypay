@@ -42,7 +42,7 @@ const SingleSchool: NextPage = () => {
         <FilterComp />
       </aside>
       <main className="flex flex-col w-full items-center justify-start ">
-        <div className="hidden w-[calc(100vw_-_35rem)]  lg:flex items-center justify-between pb-[20px]">
+        <div className="hidden w-[calc(100vw_-_35rem)]  lg:flex items-center justify-between mt-[10px] pb-[20px]">
           <div className="">
             <p className="text-[18px] ">Showing: 487 filtered schools</p>
           </div>
@@ -82,6 +82,25 @@ const SingleSchool: NextPage = () => {
             activeClassName="bg-applyBlue text-white border-0"
             // renderOnZeroPageCount={null}
           />
+        </div>
+        <div className="flex h-[60px] mb-[2rem] items-center justify-between bg-white w-full px-[25px] py-1 lg:hidden">
+          <div className="w-[20%] flex items-center justify-center pr-2">
+            <p className="font-[100]">Previous</p>
+          </div>
+          <div className="w-[60%] flex items-center justify-center space-x-1 px-1  border-l border-r ">
+            <div className="font-[100]">page</div>
+            <div className="font-[100]">
+              <select className="border-[2px] border-[#979797] rounded-[3px] px-[10px] py-[6px]">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+            <div className="font-[100] text-[14px]">0f 400</div>
+          </div>
+          <div className="w-[20%] flex items-center justify-center">
+            <p className="font-[100]"> Next</p>
+          </div>
         </div>
       </main>
     </div>

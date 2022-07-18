@@ -1,3 +1,4 @@
+- second almost
 - swipper js
 - add: current
 - add: another git within the frontend

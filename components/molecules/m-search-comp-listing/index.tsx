@@ -3,7 +3,7 @@ import LocationIcon from '@lib/icons/home/location-icon';
 
 const SearchCompListing = () => {
   return (
-    <div className="xs-mini:self-center xs-mini:mt-[10px] lg:mt-[0px] bg-white rounded-[4px] lg:flex flex-col space-y-4 xs-mini:p-[10px] xs:p-[10px] xl:p-[17px] drop-shadow-[0px_8px_40px_rgba(0,_0,_0,_0.08)] xs-mini:w-[250px] xs-mini:h-[220px] xs:w-[280px] xs:h-[220px] lg:w-[273px] lg:h-fit ">
+    <div className="xs-mini:self-center xs-mini:mt-[10px] lg:mt-[0px] bg-white rounded-[4px] lg:flex flex-col space-y-4 xs-mini:p-[10px] xs:p-[10px] xl:p-[17px] shadow-[0px_8px_40px_rgba(0,_0,_0,_0.08)] xs-mini:w-[250px] xs-mini:h-[220px] xs:w-[280px] xs:h-[220px] lg:w-[273px] lg:h-fit ">
       <h1 className="hidden lg:flex">Search</h1>
       <div className="flex space-x-2 items-center justify-between  xs-mini:w-full xs:w-full ">
         <div className="relative  flex  w-full  flex-col xs-mini:w-full xs:w-full ">
