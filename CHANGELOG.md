@@ -1,3 +1,4 @@
+- slider
 - mobile nav
 - second almost
 - swipper js

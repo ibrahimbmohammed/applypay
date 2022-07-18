@@ -21,7 +21,9 @@ const SchoolCard = ({ data }: SchoolCardProps) => {
   return (
     <div className="snap-center bg-white  w-[280px] h-[412px] rounded-[6px] overflow-hidden flex flex-col space-y-1 items-center">
       <div className="max-h-[244px]">
-        <Image src={data.image} />
+        <a href="/blog/d">
+          <Image src={data.image} />
+        </a>
       </div>
       <div className=" py-[5px] px-[14px] w-full  flex flex-col items-start justify-center space-y-1">
         <p className="text-applyText text-[16px]">{data.name}</p>
