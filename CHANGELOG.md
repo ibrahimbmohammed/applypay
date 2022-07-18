@@ -1,3 +1,4 @@
+- add : last section
 - slider
 - mobile nav
 - second almost

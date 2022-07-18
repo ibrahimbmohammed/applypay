@@ -112,9 +112,9 @@ const Home: NextPage = () => {
         </div>
         <SectionHeaderComp
           text="Featured Schools"
-          className="h-[6rem] xs-mini:w-[235px] lg:w-[28rem]"
+          className="h-[6rem] xs-mini:w-[235px] lg:w-[21rem]"
           classNameText="xs-mini:text-[29px] lg:text-[42px]"
-          classNameBg=" xs-mini:h-[18px] lg:right-[110px] lg:h-[23px] xs-mini:w-[240px] lg:w-[340px] lg:top-[32px] xs-mini:top-[20px] "
+          classNameBg=" xs-mini:h-[18px] lg:right-[0px] lg:h-[23px] xs-mini:w-[240px] lg:w-[340px] lg:top-[32px] xs-mini:top-[20px] "
         />
 
         <SwiperFeatured />
