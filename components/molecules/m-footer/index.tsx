@@ -3,12 +3,12 @@ import Image from '@hoc/next-base-image';
 import Link from '@hoc/link';
 import ApplyLogo from '@assets/svg/applyLogoWhite.svg';
 import FooterEnd from '@assets/svg/footerEnd.svg';
-import SocailLists from '@molecules/m-item-list-socails';
+import SocailListsWhite from '@molecules/m-item-list-socials-white';
 
 const Footer = () => {
   return (
-    <footer className="relative overflow-hidden  flex h-fit flex-col justify-between  bg-footer px-5 pb-4 xs-mini:px-[14px] lg:pl-[156px] lg:pr-[100px]  min-h-[553px] ">
-      <div className="flex  flex-col items-start xs-mini:space-y-[30px] lg:space-y-[0px]  justify-between py-2 sm:py-[4rem] md:flex-row xs-mini:mt-[10px] lg:mt-[10px]">
+    <footer className="relative overflow-hidden  flex h-fit flex-col justify-between  bg-footer px-5 lg:pb-4 xs-mini:px-[14px] lg:pl-[156px] lg:pr-[100px]  min-h-[553px] ">
+      <div className="flex  flex-col items-start xs-mini:space-y-[30px] lg:space-y-[0px]  justify-between xs-mini:py-[16px] lg:py-[4rem] md:flex-row xs-mini:mt-[10px] lg:mt-[10px]">
         <div className=" md:max-w-[32rem] flex-col xs-mini:space-y-[12px] lg:space-y-[20px]">
           <div className="max-h-[70px] xs-mini:max-w-[244px] lg:max-w-[339px] overflow-hidden ">
             <Image src={ApplyLogo} />
@@ -106,12 +106,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="">
-        <hr className="border-b border-[#1F3254] " />
+        <hr className="border border-[#1F3254] " />
         <div className="lg:mt-[22px] lg:mb-[12px]   flex flex-col lg:flex-row items-center lg:justify-between space-y-2 lg:space-y-0">
-          <p className="text-center text-[12px]  font-[450] text-[#8C97AC]  ">
+          <p className="text-center text-[12px]  font-[450] text-[#8C97AC] xs-mini:pt-[8px] lg:pt-[0px]  ">
             © Aply Technologies, {new Date().getFullYear()}. All Rights Reserved.
           </p>
-          <SocailLists />
+          <SocailListsWhite />
         </div>
       </div>
       <div className="absolute xs-mini:-left-[60px] xs-mini:-rotate-[25deg] xs-mini:-bottom-[60px] lg:-rotate-0 lg:left-0 lg:-bottom-[10px]">
