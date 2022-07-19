@@ -7,7 +7,7 @@ import Link from 'next/link';
 const FeaturedCard = () => {
   return (
     <Link href="/school/b">
-      <div className="snap-center bg-white py-[31px] px-[20px] min-w-[260px] min-h-[401px] rounded-[6px] flex flex-col space-y-8 items-center">
+      <div className="snap-center cursor-pointer bg-white py-[31px] px-[20px] min-w-[260px] min-h-[401px] rounded-[6px] flex flex-col space-y-8 items-center">
         <div className="">
           <Image src={Nordic} />
         </div>

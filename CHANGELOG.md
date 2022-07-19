@@ -1,3 +1,4 @@
+- add: new jumbo
 - nav white
 - half fix
 - add: accordian content

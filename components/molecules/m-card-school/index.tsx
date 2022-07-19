@@ -21,9 +21,9 @@ interface SchoolCardProps {
 const SchoolCard = ({ data }: SchoolCardProps) => {
   return (
     <Link href="/school/b">
-      <div className="snap-center bg-white  w-[280px] h-[412px] rounded-[6px] overflow-hidden flex flex-col space-y-1 items-center">
-        <div className="max-h-[244px]">
-          <Image src={data.image} />
+      <div className="snap-center bg-white xs-mini:w-[280px] xs-mini:h-[412px] xs:w-[340px] xs:h-[442px] lg:w-[280px] lg:h-[412px] rounded-[6px] overflow-hidden flex flex-col space-y-1 items-center">
+        <div className=" xs:w-[340px] lg:w-[280px]  max-h-[244px]">
+          <Image src={data.image} height="244" width="340" />
         </div>
         <div className=" py-[5px] px-[14px] w-full  flex flex-col items-start justify-center space-y-1">
           <p className="text-applyText text-[16px]">{data.name}</p>

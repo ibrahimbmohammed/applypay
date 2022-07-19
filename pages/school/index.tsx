@@ -33,7 +33,7 @@ const SingleSchool: NextPage = () => {
 
   return (
     <div className=" lg:pl-[109px] xs-mini:space-x-0  lg:space-x-6 lg:pr-[72px] bg-background flex xs-mini:flex-col lg:flex-row  ">
-      <aside className="lg:sticky  xs-mini:w-full lg:w-fit xs-mini:flex xs-mini:flex-col xs-mini:items-center xs-mini:justify-start lg:b inset-x-0 min-w-[273px] space-y-5 top-0 left-0 py-5 self-baseline overflow-y-auto max-h-screen scrollbar-hide">
+      <aside className="lg:sticky   xs-mini:w-full lg:w-fit xs-mini:flex xs-mini:flex-col xs-mini:items-center xs-mini:justify-start lg:b inset-x-0 min-w-[273px] space-y-5 top-0 left-0 py-5 self-baseline overflow-y-auto max-h-screen scrollbar-hide">
         <SearchCompListing />
         <FilterComp />
         <FilterComp />
@@ -55,7 +55,7 @@ const SingleSchool: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col space-y-4   w-[280px] pb-4 lg:hidden">
+        <div className="flex flex-col space-y-4    w-[340px] pb-4 lg:hidden">
           <div className="cursor-pointer flex space-x-2 items-center justify-center bg-white shadow-md rounded-[5px] w-[127px] h-[51px]">
             <FiFilter className="text-applyBlue text-[22px] " />
             <p className="text-applyBlue">Filter</p>
@@ -72,6 +72,8 @@ const SingleSchool: NextPage = () => {
             breakLabel="..."
             nextLabel={<RightPagCell />}
             nextClassName=""
+            className="pagination"
+            activeLinkClassName="active"
             previousLabel={<LeftPagCell />}
             previousClassName=""
             containerClassName="flex justify-center align-center"
