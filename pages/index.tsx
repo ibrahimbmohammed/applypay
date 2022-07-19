@@ -103,7 +103,7 @@ const Home: NextPage = () => {
           </button>
         </div>
       </section>
-      <section className="relative overflow-hidden xs-mini:h-[calc(100vh_-_10rem)]  lg:h-[calc(100vh_-_5rem)] w-full bg-[#FFF7CF]   flex flex-col space-y-5 items-center justify-center ">
+      <section className="relative overflow-hidden xs-mini:h-[calc(100vh_-_10rem)]  lg:h-[calc(100vh_-_2rem)] w-full bg-[#FFF7CF]   flex flex-col space-y-5 items-center justify-center ">
         <div className="absolute xs-mini:-top-[200px]  xs-mini:-left-[300px] xl:left-0 xl:top-0">
           <BgLeftIcon />
         </div>
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
         </div>
         <SectionHeaderComp
           text="Featured Schools"
-          className="xs-mini:h-[2rem] lg:h-[6rem] xs-mini:w-[235px] lg:w-[21rem]"
+          className="xs-mini:h-[2rem]  lg:h-[9rem] xs-mini:w-[235px] lg:w-[21rem]"
           classNameText="xs-mini:text-[29px] lg:text-[42px]"
           classNameBg=" xs-mini:h-[18px] lg:right-[0px] lg:h-[23px] xs-mini:w-[240px] lg:w-[340px] lg:top-[32px] xs-mini:top-[20px] "
         />
@@ -135,9 +135,9 @@ const Home: NextPage = () => {
         </div>
         <SectionHeaderComp
           text="Latest News & Guides"
-          className="xs-mini:h-[2rem] lg:h-[6rem] xs-mini:w-[280px] lg:w-[28rem]"
+          className="xs-mini:h-[2rem] text-center   lg:h-[7rem] xs-mini:w-[280px] lg:w-[425px]"
           classNameText="xs-mini:text-[28px] lg:text-[42px]"
-          classNameBg="  xs-mini:h-[18px] lg:h-[23px] xs-mini:w-[195px] lg:w-[300px] lg:right-[22px] lg:top-[32px] xs-mini:top-[20px] "
+          classNameBg="  xs-mini:h-[18px] lg:h-[23px] xs-mini:w-[195px] lg:w-[225px] lg:right-[0px] lg:top-[32px] xs-mini:top-[20px] "
         />
         <SwiperNews />
         <div className="hidden lg:flex space-x-[80px] w-full items-center justify-between px-[110px] ">

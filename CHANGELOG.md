@@ -1,3 +1,4 @@
+-  pagination
 - add: new jumbo
 - nav white
 - half fix
