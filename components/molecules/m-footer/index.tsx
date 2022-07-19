@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <button
             type="button"
-            className="text-[15px] text-white border-[2px] bg-applyBlue border-applyBlue rounded-[6px] xs-mini:px-[25px] xs-mini:py-[6px] lg:px-[25px] lg:py-[10px]"
+            className="text-[15px] text-[#E9F7FE] border-[2px] bg-applyBlue border-applyBlue rounded-[6px] xs-mini:px-[25px] xs-mini:py-[6px] lg:px-[25px] lg:py-[10px]"
           >
             Register
           </button>
@@ -32,13 +32,13 @@ const Footer = () => {
               <p className="text-sm font-[450] text-[#8C97AC] ">Help</p>
               <ul className="mt-3 space-y-3">
                 <li className="flex items-center">
-                  <p className="text-[12px] text-white font-[450]  ">FAQs</p>
+                  <p className="text-[12px] text-[#E9F7FE] font-[450]  ">FAQs</p>
                 </li>
                 <li className="flex items-center ">
-                  <p className="text-[12px] text-white font-[450] ">Support</p>
+                  <p className="text-[12px] text-[#E9F7FE] font-[450] ">Support</p>
                 </li>
                 <li className="flex items-center l">
-                  <p className="text-[12px] text-white font-[450] ">Contact Us</p>
+                  <p className="text-[12px] text-[#E9F7FE] font-[450] ">Contact Us</p>
                 </li>
               </ul>
             </div>
@@ -47,12 +47,12 @@ const Footer = () => {
               <ul className="mt-3 space-y-3">
                 <Link href="/about">
                   <li className="flex items-center ">
-                    <p className="text-[12px] text-white font-[450] ">Terms & Conditions</p>
+                    <p className="text-[12px] text-[#E9F7FE] font-[450] ">Terms & Conditions</p>
                   </li>
                 </Link>
                 <Link href="/about">
                   <li className="flex items-center ">
-                    <p className="text-[12px] text-white font-[450]  ">Privacy Policy</p>
+                    <p className="text-[12px] text-[#E9F7FE] font-[450]  ">Privacy Policy</p>
                   </li>
                 </Link>
               </ul>
@@ -62,19 +62,21 @@ const Footer = () => {
               <ul className="mt-3 space-y-3">
                 <Link href="/about">
                   <li className="flex items-center  ">
-                    <p className="text-[12px] text-left text-white font-[450] xs-mini:pr-[20px] leading-[25px] lg:pr-0 ">
+                    <p className="text-[12px] text-left text-[#E9F7FE] font-[450] xs-mini:pr-[20px] leading-[25px] lg:pr-0 ">
                       Aply Technologies Limited, Ventures Park, 29, Mambila Str, Maitama, Abuja,
                       Nigeria.
                     </p>
                   </li>
                 </Link>
-                <Link href="/about">
-                  <li className="flex items-center ">
-                    <p className="text-[12px] text-[#F6BD2A] font-[450]   ">
-                      +234 901 552 5136 <br /> customer@applyi.ng
-                    </p>
-                  </li>
-                </Link>
+
+                <li className="flex items-center ">
+                  <p className="text-[12px] text-[#F6BD2A] font-[450]   ">
+                    <a className="no-underline" href="tel:+234 901 552 5136">
+                      +234 901 552 5136
+                    </a>
+                    <br /> <a href="mailto:customer@applyi.ng">customer@applyi.ng</a>
+                  </p>
+                </li>
               </ul>
             </div>
           </div>
@@ -84,19 +86,21 @@ const Footer = () => {
             <ul className="mt-3 space-y-3">
               <Link href="/about">
                 <li className="flex items-center ">
-                  <p className="text-[12px] text-left text-white font-[450] xs-mini:pr-[80px] leading-[20px] lg:pr-0 ">
+                  <p className="text-[12px] text-left text-[#E9F7FE] font-[450] xs-mini:pr-[80px] leading-[20px] lg:pr-0 ">
                     Aply Technologies Limited, Ventures Park, 29, Mambila Str, Maitama, Abuja,
                     Nigeria.
                   </p>
                 </li>
               </Link>
-              <Link href="/about">
-                <li className="flex items-center ">
-                  <p className="text-[12px] text-[#F6BD2A] font-[450]   ">
-                    +234 901 552 5136 <br /> customer@applyi.ng
-                  </p>
-                </li>
-              </Link>
+
+              <li className="flex items-center ">
+                <p className="text-[12px] text-[#F6BD2A] font-[450]   ">
+                  <a className="no-underline" href="tel:+234 901 552 5136">
+                    +234 901 552 5136
+                  </a>
+                  <br /> <a href="mailto:customer@applyi.ng">customer@applyi.ng</a>
+                </p>
+              </li>
             </ul>
           </div>
         </div>

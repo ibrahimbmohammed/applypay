@@ -6,7 +6,7 @@ import LinkedinIcon from '@lib/icons/home/linkedin-icon';
 
 const SocailLists = () => {
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-4 pb-4">
       <WhatsAppIcon />
       <InstagramIcon />
       <FaTwitter className="text-applyText" />

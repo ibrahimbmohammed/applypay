@@ -94,7 +94,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="lg:pt-10">
+        <div className="lg:pt-10 pb-10">
           <button
             type="button"
             className=" xs-mini:font-[400] lg:font-[350] xs-mini:text-[14px] lg:text-[20px] text-applyBlue border-[2px] border-applyBlue xs-mini:rounded-full lg:rounded-[17px] lg:px-[55px] lg:py-[9px] xs-mini:px-[35px] xs-mini:py-[5px]"
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
           <NewsCard />
         </div>
 
-        <div className="xs-mini:pb-3 lg:pt-10">
+        <div className="xs-mini:pb-3 lg:pt-10 pb-10">
           <button
             type="button"
             className=" xs-mini:font-[400] lg:font-[350] xs-mini:text-[14px] lg:text-[20px] text-applyBlue border-[2px] border-applyBlue xs-mini:rounded-full lg:rounded-[17px] lg:px-[55px] lg:py-[9px] xs-mini:px-[35px] xs-mini:py-[5px]"

@@ -23,7 +23,7 @@ export interface Route {
 
 const routesItems: Route[] = [
   { title: 'Home', link: '/' },
-  { title: 'Blog', link: '/blog' },
+  { title: 'School', link: '/school' },
   { title: 'Register', link: '/register' },
   { title: 'Login', link: `/login` },
 ];

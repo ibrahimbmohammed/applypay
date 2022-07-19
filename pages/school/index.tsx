@@ -47,10 +47,10 @@ const SingleSchool: NextPage = () => {
             <p className="text-[18px] ">Showing: 487 filtered schools</p>
           </div>
           <div className="flex space-x-4">
-            <div className="w-[52px] h-[51px] bg-applyBlue rounded-[5px] flex items-center justify-center">
+            <div className="cursor-pointer w-[52px] h-[51px] bg-applyBlue rounded-[5px] flex items-center justify-center">
               <IoGridOutline className="text-white text-[24px]" />
             </div>
-            <div className="w-[52px] h-[51px] bg-white rounded-[5px] flex items-center justify-center">
+            <div className=" cursor-pointer  w-[52px] h-[51px] bg-white rounded-[5px] flex items-center justify-center">
               <BsListCheck className="text-applyBlue text-[24px]" />
             </div>
           </div>

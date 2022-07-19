@@ -179,19 +179,26 @@ const Blog: NextPage = () => {
                   <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
                     <RiPhoneFill className="text-applyBlue xl:text-[25px]" />
                     <p className="text-[#51596C] xs-mini:font-[450] xl:font-[350] xs-mini:text-[9.5px] xl:text-[15px]">
-                      09015525136
+                      <a className="no-underline" href="tel:09015525136 ">
+                        09015525136
+                      </a>
                     </p>
                   </div>
                   <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
                     <RiPhoneFill className="text-applyBlue xl:text-[25px]" />
                     <p className="text-[#51596C] xs-mini:font-[450] xl:font-[350] xs-mini:text-[9.5px] xl:text-[15px]">
-                      09015525136
+                      <a className="no-underline" href="tel:09015525136 ">
+                        09015525136
+                      </a>
                     </p>
                   </div>
                   <div className="flex items-center xs-mini:space-x-2 xl:space-x-5">
                     <FaGlobe className="text-applyBlue xl:text-[25px]" />
                     <p className="text-[#51596C] xs-mini:font-[450] xl:font-[350] xs-mini:text-[9.5px] xl:text-[15px]">
-                      www.nordicschool.com
+                      <a href="/" className="no-underline" target="_blank">
+                        {' '}
+                        www.nordicschool.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -211,9 +218,9 @@ const Blog: NextPage = () => {
                 <KeyIcon />
                 <SectionHeaderComp
                   text="Key Information"
-                  className="h-[1rem] xs-mini:w-[55px] lg:w-[150px]"
-                  classNameText="xs-mini:text-[29px] lg:text-[20px]"
-                  classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+                  className="h-[1rem] xs-mini:w-[120px] lg:w-[150px]"
+                  classNameText="xs-mini:text-[16px] lg:text-[20px]"
+                  classNameBg=" lg:top-[13px] lg:-right-[0px] xs-mini:h-[15px] lg:h-[15px] xs-mini:w-[120px] lg:w-[150px] xs-mini:top-[9px]"
                 />
               </div>
               <table className="table-auto w-full  ">
@@ -318,9 +325,9 @@ const Blog: NextPage = () => {
                 <CurrencyIcon />
                 <SectionHeaderComp
                   text="Tuition & Application Fees"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[250px]"
-                  classNameText="xs-mini:text-[29px] lg:text-[20px]"
-                  classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+                  className="h-[2px] xs-mini:w-[200px] lg:w-[250px]"
+                  classNameText="xs-mini:text-[16px] lg:text-[20px]"
+                  classNameBg=" lg:top-[13px] lg:right-[8px] xs-mini:h-[18px] lg:h-[15px] lg:w-[240px] xs-mini:w-[200px] xs-mini:top-[10px]"
                 />
               </div>
               <table className="table-auto w-full  ">
@@ -397,17 +404,29 @@ const Blog: NextPage = () => {
                 <FileIcon />
                 <SectionHeaderComp
                   text="Admissions"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
-                  classNameText="xs-mini:text-[29px] lg:text-[20px]"
-                  classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+                  className="h-[2px] xs-mini:w-[90px]  lg:w-[150px]"
+                  classNameText="xs-mini:text-[16px] lg:text-[20px]"
+                  classNameBg="lg:top-[13px] lg:right-[43px] xs-mini:h-[18px] lg:h-[15px] xs-mini:w-[90px] lg:w-[110px] xs-mini:top-[10px] "
                 />
               </div>
               <div className="flex flex-col ">
-                <p className="">Contact us at</p>
-                <p className="font-[100]">
+                <p className="font-[500]">Contact us at</p>
+                <p className="font-[100] text-[#51596C] ">
                   17, Ramotu Oluwakemi Street 8b, Sesan Osinoye Street Medina Estate, Gbagada –
-                  Lagos Phone: +234-01-4531398, +2348130811763, +2348023139337 Email:
-                  info@happydayspreschoolng.com
+                  Lagos Phone:
+                  <a className="no-underline" href="tel:+234-01-4531398">
+                    +234-01-4531398
+                  </a>
+                  ,
+                  <br />
+                  <a className="no-underline" href="tel:+2348130811763">
+                    +2348130811763
+                  </a>
+                  ,
+                  <a className="no-underline" href="tel:+2348023139337">
+                    +2348023139337
+                  </a>
+                  , Email: info@happydayspreschoolng.com
                 </p>
               </div>
             </DisclosureComp>
@@ -418,9 +437,9 @@ const Blog: NextPage = () => {
                 <DeskIcon />
                 <SectionHeaderComp
                   text="Exams Preparation"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[190px]"
-                  classNameText="xs-mini:text-[29px] lg:text-[20px]"
-                  classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+                  className="h-[2px] xs-mini:w-[140px]  lg:w-[190px]"
+                  classNameText="xs-mini:text-[16px] lg:text-[20px]"
+                  classNameBg=" lg:top-[13px] lg:right-[12px] xs-mini:h-[18px] lg:h-[15px] xs-mini:w-[140px] lg:w-[180px] xs-mini:top-[10px]"
                 />
               </div>
               <table className="table-auto w-full  ">
@@ -479,9 +498,9 @@ const Blog: NextPage = () => {
                 <FacilityIcon />
                 <SectionHeaderComp
                   text="School Facilities"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
-                  classNameText="xs-mini:text-[29px] lg:text-[20px]"
-                  classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+                  className="h-[2px] xs-mini:w-[125px]  lg:w-[150px]"
+                  classNameText="xs-mini:text-[16px] lg:text-[20px]"
+                  classNameBg=" lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] xs-mini:w-[125px] lg:w-[150px] xs-mini:top-[10px]"
                 />
               </div>
               <div className="grid grid-cols-3 justify-items-center xs-mini:gap-x-[10px] xl:gap-x-[120px] xs-mini:gap-y-[20px] lg:gap-y-[40px] ">
@@ -530,9 +549,9 @@ const Blog: NextPage = () => {
                 <SportIcon />
                 <SectionHeaderComp
                   text="Sports & Activities"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[170px]"
-                  classNameText="xs-mini:text-[29px] lg:text-[20px]"
-                  classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+                  className="h-[2px] xs-mini:w-[140px] lg:w-[170px]"
+                  classNameText="xs-mini:text-[16px] lg:text-[20px]"
+                  classNameBg=" lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] xs-mini:w-[140px] lg:w-[170px] xs-mini:top-[10px]"
                 />
               </div>
               <div className="grid grid-cols-3 justify-items-center xs-mini:gap-x-[10px] xl:gap-x-[120px] xs-mini:gap-y-[20px] lg:gap-y-[40px] ">
@@ -581,9 +600,9 @@ const Blog: NextPage = () => {
                 <InfomationIcon />
                 <SectionHeaderComp
                   text="About Us"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
-                  classNameText="xs-mini:text-[29px] lg:text-[20px]"
-                  classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+                  className="h-[2px] xs-mini:w-[70px]  lg:w-[90px]"
+                  classNameText="xs-mini:text-[16px] lg:text-[20px]"
+                  classNameBg=" lg:top-[13px] lg:right-[2px] xs-mini:h-[18px] lg:h-[15px] xs-mini:w-[70px] lg:w-[90px] xs-mini:top-[10px]"
                 />
               </div>
               <div className="">
@@ -618,9 +637,9 @@ const Blog: NextPage = () => {
                 <MapIcon />
                 <SectionHeaderComp
                   text="Map"
-                  className="h-[2px] xs-mini:w-[55px] lg:w-[150px]"
-                  classNameText="xs-mini:text-[29px] lg:text-[20px]"
-                  classNameBg="xs-mini:top-6 lg:top-[13px] lg:-right-[0px] xs-mini:h-[18px] lg:h-[15px] w-[150px]"
+                  className="h-[2px] xs-mini:w-[40px]  lg:w-[45px]"
+                  classNameText="xs-mini:text-[16px] lg:text-[20px]"
+                  classNameBg=" lg:top-[13px] lg:right-[2px] xs-mini:h-[18px] lg:h-[15px] xs-mini:w-[40px] lg:w-[45px] xs-mini:top-[10px]"
                 />
               </div>
               <div className="google-map-code">
