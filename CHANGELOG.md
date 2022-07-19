@@ -1,3 +1,4 @@
+- nav white
 - half fix
 - add: accordian content
 - add: arcodian
